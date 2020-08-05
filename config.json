@@ -1,0 +1,16 @@
+{
+"inbound": {
+    "protocol": "vmess",
+    "listen": "127.0.0.1",
+ "port": 8964,
+ "settings": {"clients": [
+        {"id": "dfc875eb-324b-4883-86ef-9188d2622886"}
+    ]},
+ "streamSettings": {
+ "network": "ws",
+ "wsSettings": {"path": "/kw7NXii"}
+    }
+},
+
+"outbound": {"protocol": "freedom"}
+}
